@@ -1,0 +1,65 @@
+body{
+    background-image: url(./climbing.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: -1em -23em;
+    background-color: gray;
+}
+
+.contenido{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
+    
+}
+.letras{
+    line-height: 10%;
+    margin-left: 5%;
+}
+
+.inicio{
+    font-size: 0.8rem;
+    color: white;
+}
+.titulo1{
+    font-size: 2rem;
+    color: white;
+    
+}
+.titulo2{
+    font-size: 2rem;
+    color: yellow;
+    
+}
+.buscar{
+    display: flex;  
+    flex-direction: row;  
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    border-left: 20%;
+    padding: 0.5rem;
+    width: 90%;
+}
+input{
+    border-radius: 30px;
+    align-items: center;
+    border: 0;
+    margin: 0;
+    padding: 10px;
+    width: 90%;
+
+}
+.tamaño{
+    height: 24px;
+    width: 24px;
+
+}
+
+
