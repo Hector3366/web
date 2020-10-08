@@ -1,17 +1,16 @@
-body{
+.contenedor{
     background-image: url(./climbing.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    background-position: -1em -23em;
-    background-color: gray;
+    background-position: -1em -25em;
+    object-fit: contain;
+    margin: 0%;
 }
 
 .contenido{
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-top: 1.5em;
     margin-bottom: 2.5em;
     
@@ -50,7 +49,7 @@ input{
     border-radius: 30px;
     align-items: center;
     border: 0;
-    margin: 0;
+    margin-bottom: 5%;
     padding: 10px;
     width: 90%;
 
@@ -61,4 +60,8 @@ input{
 
 }
 
+
+.IMG2{
+    margin-left: 80%;
+}
 
