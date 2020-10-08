@@ -1,10 +1,13 @@
 .contenedor{
-    background-image: url(./climbing.jpg);
+    background-image: url(./campa.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: -1em -25em;
     object-fit: contain;
+    margin: -1px -1;
+}
+body{
     margin: 0%;
+    margin-bottom: 0%;
 }
 
 .contenido{
@@ -42,7 +45,8 @@
     border-radius: 25px;
     color: black;
     border-left: 20%;
-    padding: 0.5rem;
+    border-bottom: 5%;
+    padding: 0.2rem;
     width: 90%;
 }
 input{
@@ -62,6 +66,10 @@ input{
 
 
 .IMG2{
-    margin-left: 80%;
+    margin-left: 70%;
+    width: 40px;
+    height: 40px;
 }
-
+.img1{
+    margin-left: 5%;
+}
